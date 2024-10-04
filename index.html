@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <title>Rustic Roast</title>
+</head>
+<body>
+    <header id="header">
+        <img src="./coffee.png" alt="Rustic Roast coffee logo" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a href="#history" class="nav-link">History</a>
+                </li>
+                <li>
+                    <a href="#production" class="nav-link">Production</a>
+                </li>
+                <li>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="title-section">
+            <h1>Rustic Roast</h1>
+            <p>Crafted with Care, Brewed with Passion.</p>
+        </div>
+        <section id="form-section">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email" class="sr-only">Enter your email address</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                <input type="submit" value="Purchase" id="submit">
+            </form>
+        </section>
+        <section id="history">
+            <h2>Our history</h2>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius maxime maiores facere doloremque, quo ut quae quod quasi sint, cum voluptas veritatis culpa aliquam ullam ipsum corporis exercitationem quis!
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda necessitatibus adipisci consectetur iste eos veritatis quasi voluptas explicabo doloribus magnam. Beatae esse fugit quam fuga, ab pariatur ad cupiditate commodi.
+                </p>
+            </article>
+        </section>
+        <section id="production">
+            <h2>Our production process</h2>
+            <article>
+                <iframe id="video" width="560" height="315"
+                    src="https://www.youtube.com/embed/6skcgBvorDk?si=0r9O4ETzIV4-uuPg"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </article>
+        </section>
+        <section id="brand-descriptions">
+            <h2>Our most famous brands</h2>
+            <article>
+                <h3>Rustic Blend</h3>
+                <p>
+                    A harmonious mix of rich, nutty flavors with hints of chocolate, perfect for cozy mornings and relaxed evenings.
+                </p>
+            </article>
+            <article>
+                <h3>Farmhouse Espresso</h3>
+                <p>
+                    Bold and robust, this espresso delivers a full-bodied experience with a smooth finish, ideal for a quick pick-me-up or a leisurely sip.
+                </p>
+            </article>
+            <article>
+                <h3>Wildflower Decaf</h3>
+                <p>
+                    Enjoy the delicate notes of wildflowers and caramel in this smooth decaf option, crafted for those who savor the taste without the caffeine.
+                </p>
+            </article>
+            <article>
+                <h3>Seasonal Roasts</h3>
+                <p>
+                    Experience unique, limited-time blends that celebrate the flavors of each season, sourced from sustainable farms for an authentic taste.
+                </p>
+            </article>
+            <article>
+                <h3>Brew Kits</h3>
+                <p>
+                    Everything you need to craft your perfect cup at home, including freshly roasted beans, a guide, and recommended brewing techniques.
+                </p>
+            </article>
+        </section>
+        <section id="pricing">
+            <h2>Our prices</h2>
+            <div class="pricing-container">
+                <article class="pricing">
+                    <h3>Rustic Blend</h3>
+                    <h4>$80</h4>
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                    <button class="btn">SELECT</button>
+                </article>
+                <article class="pricing">
+                    <h3>Farmhouse Espresso</h3>
+                    <h4>$95</h4>
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                    <button class="btn">SELECT</button>
+                </article>
+                <article class="pricing">
+                    <h3>Wildflower Decaf</h3>
+                    <h4>$115</h4>
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                    <button class="btn">SELECT</button>
+                </article>
+                <article class="pricing">
+                    <h3>Seasonal Roasts</h3>
+                    <h4>$115</h4>
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                    <button class="btn">SELECT</button>
+                </article>
+                <article class="pricing">
+                    <h3>Brew Kits</h3>
+                    <h4>$235</h4>
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                    <button class="btn">SELECT</button>
+                </article>
+            </div>   
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li>
+                <a href="#">Terms</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
