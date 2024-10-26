@@ -40,9 +40,16 @@ body {
     background-color: #3B2A2A;
 }
 
+#history,
+#production, #brand-descriptions,
+#pricing {
+    min-height: 70vh;
+}
 
 #header #nav-bar ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 3rem;
 }
 
@@ -69,6 +76,10 @@ main {
 
 h1, h2, h3 {
     color:  #3B2A2A;
+}
+
+h1, h2 {
+    margin-top: 8rem;
 }
 
 h2 {
